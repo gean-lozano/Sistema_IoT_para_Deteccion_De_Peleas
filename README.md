@@ -27,6 +27,12 @@
 
 ![Registros de detecciones](docs/Imagen1.png)
 
+## Demostración del sistema
+
+Video de demostración del sistema IoT de detección de agresiones físicas en funcionamiento.
+
+[▶️ Ver demostración del sistema (23 segundos)](docs/videoDemo.mp4)
+
 ## Instalación
 
 ### Requisitos previos
