@@ -47,4 +47,4 @@
 
 - Ejecuta la aplicación siguiendo las instrucciones de inicio de cada componente.
 
-> Los comandos de ejecución y la configuración de la base de datos deben ajustarse a la estructura real del proyecto.
+> Los comandos de ejecución y la configuración de la base de datos deben ajustarse a la estructura real del proyecto. cual duda con la bd y las alertas en el .env
