@@ -11,21 +11,21 @@
 
 ## Arquitectura del sistema
 
-![Arquitectura del sistema](docs/arquitectura-sistema.png)
+![Arquitectura del sistema](docs/arquitectura.jpg)
 
 ## Circuito IoT
 
-![Conexiones del ESP32-CAM y buzzer](docs/circuito-iot.png)
+![Conexiones del ESP32-CAM y buzzer](docs/circuito.jpg)
 
 ## Capturas del sistema
 
 ### Detección de agresiones
 
-![Interfaz de detección](docs/deteccion-en-vivo.png)
+![Interfaz de detección](docs/Imagen2.png)
 
 ### Historial de detecciones
 
-![Registros de detecciones](docs/historial-detecciones.png)
+![Registros de detecciones](docs/Imagen1.png)
 
 ## Instalación
 
@@ -35,43 +35,16 @@
 - PostgreSQL, si no utilizas una instancia remota.
 - Git.
 
-### Pasos
+### Pasos de instalacion
+- cd  IoT-DeteccionDePeleas
+- python -m venv venv
+- venv\Scripts\activate            # Windows
+- pip install -r requirements.txt
+- python app.py
 
-1. Clona el repositorio:
 
-   ```bash
-   git clone URL_DE_TU_REPOSITORIO
-   cd NOMBRE_DEL_REPOSITORIO
-   ```
+### Configura las variables de entorno y la conexión a PostgreSQL según la configuración del proyecto.
 
-2. Crea un entorno virtual:
-
-   ```bash
-   python -m venv .venv
-   ```
-
-3. Activa el entorno virtual.
-
-   **Windows:**
-
-   ```powershell
-   .venv\Scripts\Activate.ps1
-   ```
-
-   **Linux:**
-
-   ```bash
-   source .venv/bin/activate
-   ```
-
-4. Instala las dependencias, si el proyecto dispone de un `requirements.txt`:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. Configura las variables de entorno y la conexión a PostgreSQL según la configuración del proyecto.
-
-6. Ejecuta la aplicación siguiendo las instrucciones de inicio de cada componente.
+- Ejecuta la aplicación siguiendo las instrucciones de inicio de cada componente.
 
 > Los comandos de ejecución y la configuración de la base de datos deben ajustarse a la estructura real del proyecto.
